@@ -126,7 +126,7 @@ function Form() {
         {<ErrorMessage message={errors.message?.message} />}
       </div>
 
-      <div className="w-full border border-custom px-12 rounded-3xl flex gap-8  ">
+      <div className="w-full border border-custom md:px-12 rounded-3xl flex flex-col md:flex-row gap-4 md:gap-8  ">
         <SelectBtn
           text="Back"
           className="bg-tertiary  text-primary"
