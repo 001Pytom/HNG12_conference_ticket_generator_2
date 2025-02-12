@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import SelectBtn from "../components/SelectBtn";
 import user from "../data/images/Ticket/user.png";
 import Image from "../ui/Image";
-import barcode from "../data/images/Ticket/BarCode.png";
+import barcode from "../data/images/Ticket/barCode.png";
 import TicketDetails from "../components/TicketDetails";
 import { useUserForm } from "../utils/UserFormContext";
 
