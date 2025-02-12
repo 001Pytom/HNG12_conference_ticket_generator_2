@@ -43,7 +43,7 @@ function Form() {
         const imageUrl = await uploadImageToCloudinary(file);
         setImageUrl(imageUrl);
         setValue("prImage", imageUrl);
-        console.log("Uploaded Image URL:", imageUrl);
+        // console.log("Uploaded Image URL:", imageUrl);
       } catch (error) {
         console.error("Error uploading image:", error);
       }

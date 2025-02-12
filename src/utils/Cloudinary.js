@@ -1,6 +1,6 @@
 export const uploadImageToCloudinary = async (file) => {
-  const cloudName = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME;
-  const uploadPreset = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET;
+  const cloudName = "dmyd6oq9v"
+  const uploadPreset = "ticket_upload";
 
   if (!cloudName || !uploadPreset) {
     throw new Error("Cloudinary credentials are missing");
