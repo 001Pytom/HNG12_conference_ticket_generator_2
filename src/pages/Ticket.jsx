@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import SelectBtn from "../components/SelectBtn";
-import ticketImg from "../data/images/Ticket/TICKET.png";
 import user from "../data/images/Ticket/user.png";
 import Image from "../ui/Image";
-import barcode from "../data/images/Ticket/Bar code.png";
+import barcode from "../data/images/Ticket/BarCode.png";
 import TicketDetails from "../components/TicketDetails";
 import { useUserForm } from "../utils/UserFormContext";
+
 function Ticket() {
   const navigate = useNavigate();
   const { imageUrl } = useUserForm();
