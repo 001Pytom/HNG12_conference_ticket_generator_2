@@ -44,8 +44,10 @@ function Header() {
         ))}
       </nav>
 
-      <button className="flex items-center gap-2 py-4 px-6 border border-borderYellow rounded-xl bg-white">
-        <span className="text-textBlack text-base font-normal">MY TICKETS</span>
+      <button className="flex items-center gap-2 py-4 px-6 border border-borderYellow rounded-xl bg-white  hover:bg-primary hover:border-white transition-all duration-200">
+        <span className="text-textBlack text-base font-normal hover:text-white">
+          MY TICKETS
+        </span>
         <Image src={arrow} alt="arrow" />
       </button>
     </div>
